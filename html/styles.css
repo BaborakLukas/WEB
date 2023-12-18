@@ -1,0 +1,62 @@
+/* .envelope {
+  width: 300px;
+  height: 200px;
+  background-color: #b84141;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.envelope-flap {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 30px solid #c41414;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(1);
+}
+
+.envelope-content {
+  padding: 20px;
+}
+
+.open .envelope-flap {
+  transform: scaleY(0);
+} */
+
+.envelope {
+  width: 300px;
+  height: 200px;
+  background-color: #f9f9f9;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: padding-top 0.3s ease-in;
+  padding-top: 85px; 
+}
+
+.envelope-flap {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 30px solid #de1313;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(5);
+}
+
+.envelope:hover {
+  padding-top: 20px; 
+}
+
+.envelope-content {
+  padding: 20px;
+}
+

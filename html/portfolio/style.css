@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+.description {
+  color: rgb(251, 253, 216);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headline {
+  color: rgb(59, 151, 59);
+  font-family: "Courier New", Courier, monospace;
+}
+.name {
+  color: rgb(59, 151, 59);
+}
+
+.name {
+  font-family: "Courier New", Courier, monospace;
+}
+body{
+    margin-left: 1.5cm;
+}

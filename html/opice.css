@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  #eee;
+    background: #024;}
+    header{
+        display: flex;
+        padding: 2em;
+        background: #046;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-between;
+        align-items: center;
+    }
+.ahoj{
+    text-transform: uppercase;
+    font-size: 2em;
+    flex: auto;
+    flex-direction: column-reverse;
+}
+.ahoj small{
+    position: relative;
+    font-size: 0,5em;
+    top: -0.7em;
+    margin-bottom: 1em;
+    flex-direction: column;
+}
+.nekonecno{
+    fill: white;
+    overflow: hidden;
+    position: relative;
+    flex-direction: row-reverse;
+}
+.nav{right: 1mm;
+    
+}

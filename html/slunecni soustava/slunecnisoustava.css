@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slunce{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background-color: yellow;
+}
